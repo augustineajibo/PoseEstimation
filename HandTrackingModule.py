@@ -47,7 +47,7 @@ class handDetector():
 def main():
     pTime = 0
     cTime = 0
-    camera_index = 4
+    camera_index = 0
     cap = cv2.VideoCapture(camera_index)
     if not cap.isOpened():
         print(f"Error: Cannot open camera with index {camera_index}")
